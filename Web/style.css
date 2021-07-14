@@ -1,0 +1,11 @@
+.carousel-item{
+    height: 800px;
+}
+.carousel-image-1 {
+    background-image: url('fer1.jpg');
+    background-size: cover;
+}
+.carousel-image-2 {
+    background-image: url('fer2.jpg');
+    background-size: cover;
+}
