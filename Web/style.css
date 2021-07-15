@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: rgb(0, 0,0, 0.9)
+}
 .carousel-item{
-    height: 800px;
+    height: 500px;
 }
 .carousel-image-1 {
     background-image: url('fer1.jpg');
@@ -8,4 +15,21 @@
 .carousel-image-2 {
     background-image: url('fer2.jpg');
     background-size: cover;
+}
+#about{
+    min-height: 250px;
+    position: relative;
+    background-image: url('fer3.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0,0, 0.7);
+    height: 100%;
+    width: 100%;
 }
